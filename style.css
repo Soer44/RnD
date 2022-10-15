@@ -439,6 +439,25 @@ input {
 	padding: 0 20px;
 	font-family: "OptimusPrincepsCyr";
 	font-size: 14px;
+	
+}
+
+#fio {
+	background-image: url(img/form_1.svg);
+	background-position: bottom 15px right 23px;
+	background-repeat: no-repeat;
+}
+
+#email {
+	background-image: url(img/form_2.svg);
+	background-position: bottom 15px right 20px;
+	background-repeat: no-repeat;
+}
+
+#tel {
+	background-image: url(img/form_3.svg);
+	background-position: bottom 15px right 20px;
+	background-repeat: no-repeat;
 }
 
 
