@@ -46,14 +46,14 @@ body {
 }
 
 [class*="__container"] {
-    max-width: 1920px;
+    max-width: 100%;
     
 }
 
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	max-width: 1920px;
+	max-width: 100%;
 	min-height: 100%;
 }
 
@@ -61,7 +61,7 @@ body {
 .wrapper-main-block {
 	background-image: url(img/fon.png);
 	background-size: cover;
-	max-width: 1920px;
+	max-width: 100%;
 	
 }
 
@@ -208,7 +208,7 @@ body {
 	background-image: url(img/fon1.png);
 	background-size: 100% auto;
 	background-size: cover;
-	max-width: 1920px;
+	max-width: 100%;
 	
 
 }
@@ -357,7 +357,7 @@ body {
 
 .feedback-block__container {
 	display: flex;
-	max-width: 1920px;
+	max-width: 100%;
 	
 }
 .feedback-block-img {
