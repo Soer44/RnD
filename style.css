@@ -27,9 +27,13 @@ button {
 	background-color: transparent;
 	cursor: pointer;
 }
+button:disabled {
+	cursor: no-drop;
+}
 button:hover {
 	opacity: .7;
 }
+
 ul,
 ol,
 li {
@@ -166,7 +170,7 @@ body {
 		width: 240px;
 		height: 72px;
 		border-radius: 33.5px;
-		z-index: 52;
+		
 		margin-bottom: 48px;
 }
 
@@ -470,7 +474,7 @@ input {
 	height: 54px;
 	margin-top: 30px;
 }
-.btn__text {
+.btn__text2 {
 		font-size: 15px;
 		font-family: "OptimusPrincepsCyr";
 		color: rgb(255, 255, 255);
